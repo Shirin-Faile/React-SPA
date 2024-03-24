@@ -1,0 +1,42 @@
+
+.mainSpotify {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1db954;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mainSpotify h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.song:last-child {
+    border-bottom: none;
+}
+
+.song img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.details h3 {
+    margin: 0;
+    color: #333333;
+}
+
+.details p {
+    margin: 5px 0;
+    color: #666666;
+}

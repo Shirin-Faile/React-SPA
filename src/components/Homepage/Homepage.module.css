@@ -1,0 +1,12 @@
+
+.homePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.homePage img {
+    max-width: 80%;
+    height: auto;
+}

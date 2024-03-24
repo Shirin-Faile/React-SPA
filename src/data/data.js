@@ -30,3 +30,8 @@ export const top10SpotifySongs = [
     new song("src/assets/duaLipa2.jpeg", "Dua Lipa", "Houdini")
 
 ];
+
+
+export const getCurrentDate = () => {
+    return new Date().toLocaleDateString();
+}
